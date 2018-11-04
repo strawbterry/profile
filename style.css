@@ -1,0 +1,112 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Josefine Sans', sans-serif;
+  color: #474a56;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+  color: #474a56;
+  font-weight: 400;
+}
+
+h1 {
+  color: #fd0054; /*#a80038;*/
+  font-size: 22px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+li > a {
+  color: #cacaca;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #fd0054;
+}
+
+.static_link {
+  color: #fd0054;
+  text-decoration: none;
+}
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+#profile_pic {
+  width: 50%;
+  height: auto;
+}
+
+.inline_list {
+  padding-left: 0px;
+}
+
+.identity, .contact, .movies, .about {
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  border: 1.5em solid #000000;
+  padding: 20px;
+  margin: 20px;
+}
+
+.movie_pic, #profile_pic {
+  border-radius: 4px;
+  border: 0.5em solid #EBEBEB;
+}
